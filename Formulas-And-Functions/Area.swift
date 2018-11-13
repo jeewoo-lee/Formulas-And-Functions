@@ -38,8 +38,26 @@ func forSquareWith(sideLength s : Double) -> Double {
  Note that the data type expected for arguments and returned is `Double`.
  
  */
+
 func forRectangleWith(length l : Double, width w : Double) -> Double {
+    //func      NAME      Arg_Lable parameter: data_type
     
     // Complete this function
-    return 0.0
+    let result = l * w // Calculates the area
+    return result
+}
+func forCircleWith(radius r : Double) -> Double {
+   
+    let result = Double.pi * r * r
+    return result
+}
+func forParallelogramWith(base b : Double, height h : Double) -> Double {
+    
+    let result = b * h
+    return result
+}
+func forTriangleWith (base b : Double, height h : Double) -> Double {
+    
+    let result = 0.5 * b * h
+    return result
 }
